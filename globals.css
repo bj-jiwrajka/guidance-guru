@@ -1,0 +1,31 @@
+button {
+    background-color: #ff7664;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    color: #333;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.42857;
+    margin-bottom: 1.5rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+button:hover {
+    background-color: #ff6450;
+    border-color: #adadad;
+    color: #333;
+    transition: all 0.3s ease-in-out 0s;
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width:600px)
+{
+    button{
+        font-size:1rem;
+    }
+}
